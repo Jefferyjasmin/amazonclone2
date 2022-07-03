@@ -1,0 +1,33 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.checkout_left {
+  width: 100%;
+  margin-right: 15px;
+}
+.checkout__ad {
+  width: 100%;
+  height: 54%;
+  margin-bottom: 10px;
+}
+.checkout_withSubtotalAmount {
+  display: flex;
+  justify-content: space-between;
+}
+.checkout_right {
+  margin-left: 2%;
+}
+
+@media (max-width: 530px) {
+  .checkout_withSubtotalAmount {
+    display: flex;
+    /* justify-content: unset; */
+    flex-direction: column-reverse;
+  }
+  .checkout_title {
+    text-align: center;
+  }
+}

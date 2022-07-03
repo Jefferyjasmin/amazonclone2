@@ -1,0 +1,31 @@
+.addProduct {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addProduct > h3 {
+  text-align: center;
+}
+.addProductContainer {
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+.addProductContainer > input {
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.addProductContainer > button {
+  height: 20px;
+}
+
+.addProduct_textarea {
+  width: 100% !important;
+}
